@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Sellers</title>
+<!--Remy Sharp Shim --> 
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+<link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
+<header class="menu-bar">
+	<a href="index.html">
+		<img class="home" src="images/icons/home.png" alt="go to homepage" />
+	</a>
+	<div class="dropdown">
+		<img class="menu" src="images/icons/menu.png" alt="display menu" />
+		<div class="dropdown-content">
+			<a href="about.html">About Sarah</a>
+			<a href="contact.html">Contact Me</a>
+			<a href="seller.html">For Sellers</a>
+			<a href="buyer.html">For Buys</a>
+			<a href="pick.html">Sarah's Pick</a>
+			<a href="local.html">Local Fun</a>
+		</div>
+	</div>
+</header>
+
+<div id="main">
+
+	<form class="seller-form" action="/sendSellerInfo" method="post" id="contact">
+		
+		<div class="element">
+			<label>Property Address</label>
+			<input type="text" name="address" required>
+		</div>
+		<div class="element">
+			<label>Are you the owner?</label><br/>
+			<input type="radio" name="owner" value="yes" required>Yes<br/>
+			<input type="radio" name="owner" value="no">No
+		</div>
+		<div class="element">
+			<label>How soon do you want to sell it?</label><br/>
+			<input type="radio" name="plan" value="3 months">within 3 months<br/>
+			<input type="radio" name="plan" value="6 months">within 6 months<br/>
+			<input type="radio" name="plan" value="1 year">within 1 year<br/>
+			<input type="radio" name="plan" value="2 years">within 2 years<br/>
+			<input type="radio" name="plan" value="future">considering selling in the future<br/>
+			<input type="radio" name="plan" value="no plan">no plan to sell
+		</div>
+		<div class="element">
+			<label>First Name</label>
+			<input type="text" name="first name" >
+		</div>
+		<div class="element">
+			<label>Last Name</label>
+			<input type="text" name="last name" required>
+		</div>
+		<div class="element">
+			<label>Phone</label>
+			<input type="tel" name="phone" required>
+		</div>
+		<div class="element">
+			<label>Email</label>
+			<input type="email" name="email">
+		</div>
+		<div class="button">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+
+	
+	
+</div> <!--closing main-->
+
+<footer>
+
+</footer>
+</div>  <!--closing wrapper-->
+</body>
+</html>
