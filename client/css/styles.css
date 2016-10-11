@@ -4,15 +4,14 @@ padding:0;
 }
 
 header {
-
 text-align:center;
 color:forestgreen;
-margin-bottom:20px;
+margin-bottom:15px;
 }
 
-header h5 {
-margin-top: 25px;
-margin-bottom: 8px;
+.heart {
+height:25px;
+margin-top: 10px;
 }
 
 
@@ -27,7 +26,6 @@ background-color:forestgreen;
 }
 
 .home {
-
 width:35px;
 float:left;
 }
@@ -39,6 +37,14 @@ float:right;
 
 #main {
 margin-top:50px;
+margin-bottom:50px;
+}
+
+footer a{
+display:block;
+text-align:center;
+color:#CCC;
+font-size:10px;
 }
 
 
@@ -85,18 +91,21 @@ div#index {
 max-width:300px;
 }
 
+nav {
+width:250px;
+}
 
+.icon {
+margin-bottom:0.5%;
+width:49%;
+}
 
 .left  {
 float:left;
-margin-bottom:2%;
-width:48%;
 }
 
 .right  {
 float:right;
-margin-bottom:2%;
-width:48%;
 }
 
 .button {
@@ -141,7 +150,6 @@ margin: 20px auto;
 
 .element {
 
-float: left;
 	
 width: 100%;
 	
@@ -173,6 +181,7 @@ margin-bottom: 15px;
 
 width: 100%;
 
+min-height:20px;
 }
 
 
@@ -184,7 +193,6 @@ width: 100%;
 height: 200px;
 
 }
-
 
 
 
@@ -229,6 +237,7 @@ width: 90%;
 	
 margin: 20px auto;
 
+height: auto;
 }
 
 
