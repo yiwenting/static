@@ -15,7 +15,7 @@ function sendSellerInfo(req, res) {
         if (err) {
             return res.status(500).send('Failed to contact.');
         }
-        res.redirect('/complete.html');
+        res.redirect('/complete');
     });
     dynamoDB.insert(req.body, req.device, dynamoDB.infoType.seller);
 }
