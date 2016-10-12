@@ -1,0 +1,42 @@
+<html>
+<% include ../mobile/head %>
+
+<body>
+<div id="wrapper">
+<% include ./header %>
+
+<div id="main">
+	<hr>
+	<h1>Contact</h1>
+	<p>cellphone: 650-622-2552 </p>
+	<p>email: SarahLuHomes@gmail.com</p>
+	
+	<form class="contact-form" action="/sendContactInfo" method="post" id="contact">
+		
+		<div class="element">
+			<label>Name</label>
+			<input type="text" name="name" required>
+		</div>
+		<div class="element">
+			<label>Phone</label>
+			<input type="tel" name="phone" required>
+		</div>
+		<div class="element">
+			<label>Email</label>
+			<input type="email" name="email" required>
+		</div>
+		<div class="message">
+			<label for="message">Message</label>
+			<textarea name="message" id="message"></textarea>
+		</div>	
+		<div class="button">
+			<input type="submit" value="Send">
+		</div>
+	</form>
+	
+</div> <!--closing main-->
+
+<% include ../mobile/footer %>
+</div>  <!--closing wrapper-->
+</body>
+</html>
