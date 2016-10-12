@@ -1,13 +1,13 @@
 <html>
 <% include ./head %>
 
-<body>
+<body onload="javascript:ScaleSize();" onresize="history.go(0)">
 <div>
 <% include ./header %>
 
 <div id="mainDesktop">
 	<h1>Sarah, your favorite local real estate agent</h1>
-	<img class="townhouse" src="desktop/images/townhouse.jpg" />"
+	<img class="townhouse" id="townhouse" src="desktop/images/townhouse.jpg" />"
 </div> <!--closing main-->
 
 <% include ./footer %>
