@@ -251,15 +251,19 @@ for the buyer page --------------------------------*/
 
 #mainBuyer {
 margin-top:50px;
-margin-left:20px;
+clear:both;
 }
 
 #mainBuyer h3,h4 {
 margin-top: 20px;
-
+margin-left:3%;
 }
 
 #mainBuyer p {
 display:inline;
 margin-left:5px;
+}
+
+#mainBuyer .leaf {
+margin-left:5%;
 }
